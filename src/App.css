@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 30px;
 }
 
 .App-logo {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.body-main{
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.body-container{
+  position: relative;
+}
+.body-main__item{
+  background-color: lightcyan
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(257deg, #f59c07, #f57507);
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
 }
